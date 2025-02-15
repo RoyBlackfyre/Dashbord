@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+:root{
+    --padding:2em;
+}
+
+.container {
+    min-height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows:auto 1fr;
+    grid-template-areas:"sideboard uppermenu"
+                        "sideboard content-area";
+}
+
+.sideboard{
+    grid-area: sideboard;
+}
+
+.uppermenu{
+    grid-area: uppermenu;
+
+}
+
+.content{
+    grid-area: content-area;
+
+}
