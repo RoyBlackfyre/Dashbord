@@ -203,12 +203,13 @@
 #feed-buttons {
     display:flex;
     justify-content: space-around;
+    gap:1vw;
+    align-items: center;
 }
 
 #feed-buttons > button {
     background: var(--sideboard);
-    padding-left: 3em;
-    padding-right: 3em;
+    padding: 1em 3em 1em 3em;
     font-weight: bold;
     border-radius: 28px;
     border: 1.5px solid var(--content);
