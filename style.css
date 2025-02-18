@@ -265,7 +265,20 @@
     border-radius: 28px;
     padding: var(--padding);
     box-shadow: inset 10px 0px 0px -1px var(--sideboard);
+    display:grid;
+    grid-template-rows: repeat(3,auto);
 }
+
+.card-options {
+    display:flex;
+    justify-content: right;
+    gap:1em;
+}
+.project-card img {
+    width: 2em;
+    height: 2em;
+}
+
 
 #announcement-flex {
     grid-area: announcements-flex;
