@@ -264,6 +264,7 @@
     background-color: var(--cardBackground);
     border-radius: 28px;
     padding: var(--padding);
+    box-shadow: inset 10px 0px 0px -1px var(--sideboard);
 }
 
 #announcement-flex {
