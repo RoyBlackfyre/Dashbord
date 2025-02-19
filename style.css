@@ -31,7 +31,13 @@
     padding: var(--padding);
     padding-right: 4em;
     gap:2em;
+    align-items:start;
+    position:sticky;
+    top:0;
+    height: 100vh;
 }
+
+
 
 
 .sideboard img{
@@ -285,6 +291,8 @@
     background: var(--cardBackground);
     border-radius: 28px;
     padding: var(--padding);
+    display:grid;
+    grid-template-rows: repeat(3,auto);
 }
 
 #trending-flex {
@@ -292,6 +300,9 @@
     background: var(--cardBackground);
     border-radius: 28px;
     padding: var(--padding);
+    display:grid;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
 }
 
 
